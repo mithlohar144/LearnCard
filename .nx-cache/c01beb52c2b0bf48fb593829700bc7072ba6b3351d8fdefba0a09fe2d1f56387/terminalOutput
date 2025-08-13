@@ -1,0 +1,5 @@
+
+> @learncard/vc-api-plugin@1.0.46 build D:\learn-record\LearnCard\packages\plugins\vc-api
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.js && tsc --p tsconfig.json
+
+✔ Build successful

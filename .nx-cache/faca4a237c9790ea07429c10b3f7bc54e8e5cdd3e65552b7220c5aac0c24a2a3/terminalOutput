@@ -1,0 +1,10 @@
+
+> @learncard/helpers@1.1.23 build D:\learn-record\LearnCard\packages\learn-card-helpers
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.js && dts-bundle-generator src/index.ts -o dist/helpers.d.ts --no-check
+
+✔ Build successful
+Compiling input files...
+Processing src/index.ts
+Writing src/index.ts -> dist/helpers.d.ts
+File checking is skipped (due nothing to check)
+Done in 91.22s

@@ -1,0 +1,24 @@
+
+ [31m>[39m [0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCommand failed with exit code 1: pnpm test:e2e[39m
+
+   
+   [31m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1m[7m Error during global setup [27m[22m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[39m
+   [31m[1mExecaError[22m: Command failed with exit code 1: docker compose up --build -d
+   
+   unable to get image 'welibrary/simple-signing-service': error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.51/images/welibrary/simple-signing-service/json": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.[39m
+   [90m [2m❯[22m getFinalError ../../node_modules/.pnpm/execa@9.5.2/node_modules/execa/lib/return/final-error.js:[2m6:9[22m[39m
+   [90m [2m❯[22m makeError ../../node_modules/.pnpm/execa@9.5.2/node_modules/execa/lib/return/result.js:[2m108:16[22m[39m
+   [90m [2m❯[22m getAsyncResult ../../node_modules/.pnpm/execa@9.5.2/node_modules/execa/lib/methods/main-async.js:[2m167:4[22m[39m
+   [90m [2m❯[22m handlePromise ../../node_modules/.pnpm/execa@9.5.2/node_modules/execa/lib/methods/main-async.js:[2m150:17[22m[39m
+   [36m [2m❯[22m Object.setup setup/global-setup.ts:[2m27:3[22m[39m
+       [90m 25| [39m    } [35mcatch[39m (error) {
+       [90m 26| [39m        [35mreturn[39m [35mfalse[39m[33m;[39m
+       [90m 27| [39m    }
+       [90m   | [39m  [31m^[39m
+       [90m 28| [39m}[33m;[39m
+       [90m 29| [39m
+   
+   [31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[22m[39m
+   [31m[1mSerialized Error:[22m[39m [90m{ shortMessage: 'Command failed with exit code 1: docker compose up --build -d', command: 'docker compose up --build -d', escapedCommand: 'docker compose up --build -d', cwd: 'D:\learn-record\LearnCard\tests\e2e', durationMs: 614.9676, failed: true, timedOut: false, isCanceled: false, isGracefullyCanceled: false, isTerminated: false, isMaxBuffer: false, isForcefullyTerminated: false, exitCode: 1, stdout: '', stderr: 'unable to get image \'welibrary/simple-signing-service\': error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.51/images/welibrary/simple-signing-service/json": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.', stdio: [ undefined, '', 'unable to get image \'welibrary/simple-signing-service\': error during connect: Get "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.51/images/welibrary/simple-signing-service/json": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.' ], ipcOutput: [], pipedFrom: [] }[39m
+   Pass --verbose to see the stacktrace.
+

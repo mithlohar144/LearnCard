@@ -1,0 +1,5 @@
+
+> @learncard/encryption-plugin@1.0.20 build D:\learn-record\LearnCard\packages\plugins\encryption
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.js && tsc --p tsconfig.json
+
+✔ Build successful

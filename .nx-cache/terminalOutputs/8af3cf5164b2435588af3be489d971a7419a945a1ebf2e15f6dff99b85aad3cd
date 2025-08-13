@@ -1,0 +1,5 @@
+
+> @learncard/learn-cloud-plugin@2.1.40 build D:\learn-record\LearnCard\packages\plugins\learn-cloud
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.js && tsc --p tsconfig.json
+
+✔ Build successful

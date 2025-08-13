@@ -1,0 +1,21 @@
+
+> @learncard/cli@3.3.124 build D:\learn-record\LearnCard\packages\learn-card-cli
+> rollup -c
+
+[36m
+[1msrc/index.tsx[22m → [1mdist/index.js[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/guide/en/#warning-treating-module-as-external-dependency[39m
+[1mfs/promises[22m (imported by src/index.tsx)
+[1mnode:dns[22m (imported by src/index.tsx)
+[1mpretty-repl[22m (imported by src/index.tsx)
+[1m@learncard/core[22m (imported by src/index.tsx)
+[1m@learncard/init[22m (imported by src/index.tsx)
+[1m@learncard/simple-signing-plugin[22m (imported by src/index.tsx)
+[1m@learncard/types[22m (imported by src/index.tsx)
+[1mgradient-string[22m (imported by src/index.tsx)
+[1mfiglet[22m (imported by src/index.tsx)
+[1mcommander[22m (imported by src/index.tsx)
+[1mclipboardy[22m (imported by src/index.tsx)
+[1mcrypto[22m (imported by src/random.ts)
+[32mcreated [1mdist/index.js[22m in [1m962ms[22m[39m

@@ -1,0 +1,5 @@
+
+> @learncard/didkit-plugin@1.5.27 build D:\learn-record\LearnCard\packages\plugins\didkit
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.js && tsc --p tsconfig.json
+
+✔ Build successful

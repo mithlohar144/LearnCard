@@ -1,0 +1,5 @@
+
+> @learncard/simple-signing-plugin@1.0.25 build D:\learn-record\LearnCard\packages\plugins\simple-signing-plugin
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.cjs && tsc --p tsconfig.json
+
+✔ Build successful

@@ -1,0 +1,14 @@
+
+> learn-card-discord-bot@1.1.174 build D:\learn-record\LearnCard\services\learn-card-discord-bot
+> rollup -c
+
+[36m
+[1msrc/Bot.ts[22m → [1mdist/index.js[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/guide/en/#warning-treating-module-as-external-dependency[39m
+[1mdotenv[22m (imported by src/Bot.ts, src/cache/index.ts)
+[1mcrypto[22m (imported by src/wallet/learncard.ts, src/commands/StartConnectID.ts, src/accesslayer/issuers/create/index.ts, src/accesslayer/didregistry/create/index.ts, src/accesslayer/credentialtemplates/create/index.ts, src/accesslayer/pendingvcs/create/index.ts)
+[1m@learncard/init[22m (imported by src/wallet/learncard.ts, src/commands/ConfigureIssuer.ts, src/commands/helpers/index.ts)
+[1mioredis[22m (imported by src/cache/index.ts)
+[1mioredis-mock[22m (imported by src/cache/index.ts)
+[32mcreated [1mdist/index.js[22m in [1m420ms[22m[39m

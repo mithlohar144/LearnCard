@@ -1,0 +1,25 @@
+
+> @learncard/react@2.8.33 build D:\learn-record\LearnCard\packages\react-learn-card
+> pnpm generate-barrels && rollup -c
+
+
+> @learncard/react@2.8.33 generate-barrels D:\learn-record\LearnCard\packages\react-learn-card
+> barrelsby -D -e ".*\.(stories)|(test)|(\.d\.).*" -d ./src/components -l all
+
+[36m
+[1msrc/index.ts, src/components/AchievementCard/index.ts, src/components/BoostGenericCard/index.ts, src/components/BoostSmallCard/index.ts, src/components/Button/index.ts, src/components/CertificateDisplayCard/index.ts, src/components/CircleCheckButton/index.ts, src/components/CircleIcon/index.ts, src/components/CourseCard/index.ts, src/components/CourseVerticalCard/index.ts, src/components/FlippyCard/index.ts, src/components/GenericCard/index.ts, src/components/index.ts, src/components/JobHistoryCard/index.ts, src/components/JobListCard/index.ts, src/components/LearnCardCreditCardBackFace/index.ts, src/components/LearnCardCreditCardFrontFace/index.ts, src/components/LearnPill/index.ts, src/components/Lightbox/index.ts, src/components/Loading/index.ts, src/components/MeritBadgeDisplayCard/index.ts, src/components/MiniVCThumbnail/index.ts, src/components/Notification/index.ts, src/components/NotificationBoostCard/index.ts, src/components/NotificationUserAcceptedBoostCard/index.ts, src/components/NotificationUserCard/index.ts, src/components/QRCodeCard/index.ts, src/components/RoundedPill/index.ts, src/components/RoundedSquare/index.ts, src/components/SchoolIdCard/index.ts, src/components/SkillsCard/index.ts, src/components/SkillsStatsCard/index.ts, src/components/SkillTabCard/index.ts, src/components/SkillVerticalCard/index.ts, src/components/SmallAchievementCard/index.ts, src/components/svgs/index.ts, src/components/UserProfilePicture/index.ts, src/components/VCCard/index.ts, src/components/VCDisplayBackFace/index.ts, src/components/VCDisplayCard/index.ts, src/components/VCDisplayCard2/index.ts, src/components/VCDisplayFrontFace/index.ts, src/components/VCThumbnail/index.ts, src/components/VCVerificationCheck/index.ts, src/components/VCVerificationPill/index.ts[22m → [1mdist/cjs, dist/esm[22m...[39m
+[1m[33m(!) Unused external imports[39m[22m
+default imported from external module "./user.svg" but never used in "src/constants/icons.ts"
+[32mcreated [1mdist/cjs, dist/esm[22m in [1m4m 25.3s[22m[39m
+[36m
+[1msrc/assets/styles/main.css, src/assets/styles/base.css[22m → [1mdist[22m...[39m
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+[1m[33mwarn[39m[22m - As of Tailwind CSS v3.3, the `@tailwindcss/line-clamp` plugin is now included by default.
+[1m[33mwarn[39m[22m - Remove it from the `plugins` array in your configuration to eliminate this warning.
+[32mcreated [1mdist[22m in [1m1m 17.7s[22m[39m
+[36m
+[1msrc/index.ts[22m → [1mdist/index.d.ts[22m...[39m
+[32mcreated [1mdist/index.d.ts[22m in [1m43.1s[22m[39m

@@ -1,0 +1,5 @@
+
+> @learncard/dynamic-loader-plugin@1.0.42 build D:\learn-record\LearnCard\packages\plugins\dynamic-loader
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.js && tsc --p tsconfig.json
+
+✔ Build successful

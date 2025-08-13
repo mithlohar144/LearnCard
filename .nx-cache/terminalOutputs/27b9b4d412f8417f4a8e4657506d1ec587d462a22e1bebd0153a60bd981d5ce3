@@ -1,0 +1,36 @@
+
+> @learncard/meta-mask-snap@1.0.86 build D:\learn-record\LearnCard\services\meta-mask-snap
+> echo "Skipping MM Snap build for now..." # pnpm pre:build && rollup -c && pnpm post:build
+
+"Skipping MM Snap build for now..." # pnpm pre:build 
+[36m
+[1m./src/snap.ts[22m → [1m./dist/snap.js[22m...[39m
+[1m[33m(!) `this` has been rewritten to `undefined`[39m[22m
+[90mhttps://rollupjs.org/guide/en/#error-this-is-undefined[39m
+[1m../../node_modules/.pnpm/isomorphic-webcrypto@2.3.8_expo@52.0.41_@babel+core@7.26.10_@babel+preset-env@7.26.9_@babel+c_xzile34nvpwa4vypsaws4fkwee/node_modules/isomorphic-webcrypto/src/webcrypto-shim.mjs[22m
+[90m16:         factory(global);
+17:     }
+18: }(typeof self !== 'undefined' ? self : this, function (global) {
+                                           ^
+19:     'use strict';[39m
+[1m[31m[!] [1mError: 'initLearnCard' is not exported by ../../packages/learn-card-core/dist/core.esm.js, imported by src/snap.ts[22m[1m[39m[22m
+[36mhttps://rollupjs.org/guide/en/#error-name-is-not-exported-by-module[39m
+src/snap.ts (2:9)
+[2m1: import { z } from 'zod';
+2: import { initLearnCard, LearnCardFromKey, DidMethod } from '@learncard/core';
+            ^
+3: import { OnRpcRequestHandler } from '@metamask/snap-types';
+4: import { MetaMaskInpageProvider } from '@metamask/providers';[22m
+[2mError: 'initLearnCard' is not exported by ../../packages/learn-card-core/dist/core.esm.js, imported by src/snap.ts
+    at error (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:198:30)
+    at Module.error (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:12560:16)
+    at Module.traceVariable (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:12919:29)
+    at ModuleScope.findVariable (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:11571:39)
+    at ReturnValueScope.findVariable (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:6503:38)
+    at ChildScope.findVariable (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:6503:38)
+    at Identifier.bind (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:7570:40)
+    at CallExpression.bind (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:5400:23)
+    at CallExpression.bind (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:9066:15)
+    at AwaitExpression.bind (D:\learn-record\LearnCard\node_modules\.pnpm\rollup@2.79.2\node_modules\rollup\dist\shared\rollup.js:5400:23)[22m
+
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

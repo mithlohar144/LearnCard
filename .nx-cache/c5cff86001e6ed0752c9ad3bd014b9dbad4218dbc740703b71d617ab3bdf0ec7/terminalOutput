@@ -1,0 +1,5 @@
+
+> @learncard/init@2.0.40 build D:\learn-record\LearnCard\packages\learn-card-init
+> node ./scripts/build.mjs && shx cp ./scripts/mixedEntypoint.js ./dist/index.cjs && tsc --p tsconfig.build.json
+
+✔ Build successful

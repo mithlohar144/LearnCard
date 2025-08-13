@@ -1,0 +1,25 @@
+
+> @learncard/create-http-bridge@1.1.186 build D:\learn-record\LearnCard\packages\learn-card-bridge-http
+> rollup -c
+
+[36m
+[1mcli/index.tsx[22m → [1mdist/index.js[22m...[39m
+[1m[33m(!) Unresolved dependencies[39m[22m
+[90mhttps://rollupjs.org/guide/en/#warning-treating-module-as-external-dependency[39m
+[1mreact[22m (imported by cli/index.tsx, cli/App.tsx, cli/FullScreenBox.tsx, cli/Form.tsx, cli/Banner.tsx, cli/Cloning.tsx, cli/Info.tsx, cli/Input.tsx, cli/Button.tsx)
+[1mink[22m (imported by cli/index.tsx, cli/App.tsx, cli/FullScreenBox.tsx, cli/Form.tsx, cli/Banner.tsx, cli/Cloning.tsx, cli/Info.tsx, cli/Input.tsx, cli/Button.tsx)
+[1mcommander[22m (imported by cli/index.tsx)
+[1mnode:path[22m (imported by cli/App.tsx)
+[1mnode:fs/promises[22m (imported by cli/App.tsx)
+[1muse-immer[22m (imported by cli/App.tsx)
+[1mink-use-stdout-dimensions[22m (imported by cli/FullScreenBox.tsx)
+[1mink-gradient[22m (imported by cli/Banner.tsx, cli/Cloning.tsx)
+[1mfiglet[22m (imported by cli/Banner.tsx)
+[1mcrypto[22m (imported by cli/random.ts)
+[1msimple-git[22m (imported by cli/Cloning.tsx)
+[1mink-spinner[22m (imported by cli/Cloning.tsx)
+[1mink-syntax-highlight[22m (imported by cli/Info.tsx)
+[1mlookpath[22m (imported by cli/Info.tsx)
+[1mimmer[22m (imported by cli/curriedStateSlice.ts)
+[1mink-text-input[22m (imported by cli/Input.tsx)
+[32mcreated [1mdist/index.js[22m in [1m43s[22m[39m
