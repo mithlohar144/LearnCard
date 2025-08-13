@@ -1,16 +1,33 @@
 {
   "name": "learncard",
   "version": "1.0.0",
+  "type": "module",
   "description": "A comprehensive digital credentialing system",
   "main": "index.js",
   "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "astro": "^4.0.0",
+    "@astrojs/netlify": "^5.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.3.0",
+    "typescript": "^5.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mithlohar144/LearnCard.git"
   },
-  "keywords": ["credentials", "blockchain", "education"],
+  "keywords": ["credentials", "blockchain", "education", "astro", "netlify"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

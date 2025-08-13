@@ -1,0 +1,105 @@
+---
+// Frontend logic can go here
+const title = "LearnCard - Digital Credentialing System";
+---
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A comprehensive digital credentialing system that enables the creation, management, and verification of educational and professional credentials using blockchain-inspired technology." />
+    <title>{title}</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            color: white;
+        }
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .feature h3 {
+            color: #ffd700;
+            margin-bottom: 1rem;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 4rem;
+        }
+        .btn {
+            display: inline-block;
+            background: #ffd700;
+            color: #333;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>LearnCard</h1>
+            <p>A comprehensive digital credentialing system that enables the creation, management, and verification of educational and professional credentials using blockchain-inspired technology.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🎓 Create Credentials</h3>
+                <p>Easily create and issue digital credentials for educational achievements, professional certifications, and skill validations.</p>
+            </div>
+            <div class="feature">
+                <h3>🔐 Secure Management</h3>
+                <p>Manage your credentials with enterprise-grade security and blockchain-inspired verification technology.</p>
+            </div>
+            <div class="feature">
+                <h3>✅ Instant Verification</h3>
+                <p>Enable instant verification of credentials by employers, institutions, and other stakeholders.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <a href="#get-started" class="btn">Get Started</a>
+        </div>
+    </div>
+</body>
+</html>
